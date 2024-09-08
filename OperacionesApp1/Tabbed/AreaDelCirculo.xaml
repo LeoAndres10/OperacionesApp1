@@ -13,8 +13,8 @@
         <Entry x:Name="txtX1" Keyboard="Numeric" IsReadOnly="True" />
 
 
-        <Button Text="Calcular" x:Name="txtCalcular" BackgroundColor="Blue" Clicked="txtCalcular_Clicked" />
+        <Button Text="Calcular" x:Name="txtCalcular" BackgroundColor="Blue" Clicked="txtCalcular_Clicked" Margin="10" />
 
-        <Button Text="Limpiar" x:Name="txtLimpiar" BackgroundColor="red" Clicked="txtLimpiar_Clicked" />
+        <Button Text="Limpiar" x:Name="txtLimpiar" BackgroundColor="red" Clicked="txtLimpiar_Clicked" Margin="10" />
     </VerticalStackLayout>
 </ContentPage>

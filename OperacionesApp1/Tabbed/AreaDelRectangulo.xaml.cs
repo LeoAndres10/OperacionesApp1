@@ -45,7 +45,7 @@ public partial class AreaDelRectangulo : ContentPage
         txtA.Text = "";
         txtB.Text = "";
         txtX1.Text = "";
-        txtA.Focus();
+        txtB.Focus();
     }
 
     private bool Validar()
