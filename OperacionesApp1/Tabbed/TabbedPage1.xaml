@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:OperacionesApp1.Tabbed"
+            xmlns:local1="clr-namespace:OperacionesApp1"
+             x:Class="OperacionesApp1.Tabbed.TabbedPage1"
+            BarBackgroundColor="#273c75"
+            BarTextColor="Firebrick"
+             Title="TabbedPage1">
+
+    
+    <local:AreaDelCuadrado/>
+    <local:AreaDelCirculo/>
+    <local:AreaDelRectangulo/>
+</TabbedPage>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OperacionesApp1.Tabbed.AreaDelRectangulo"
+             BackgroundColor="ForestGreen"
+             Title="Area del Rectangulo">
+    <VerticalStackLayout Margin="30" Spacing="10">
+        <Label Text="Ingrese la base:" />
+        <Entry x:Name="txtB" Keyboard="Numeric" />
+        <Label Text="Ingrese la altura:" />
+        <Entry x:Name="txtA" Keyboard="Numeric" />
+
+        <Label Text="El area del rectangulo es:" />
+        <Entry x:Name="txtX1" Keyboard="Numeric" IsReadOnly="True" />
+
+
+        <Button Text="Calcular" x:Name="txtCalcular" BackgroundColor="Blue" Clicked="txtCalcular_Clicked" />
+
+        <Button Text="Limpiar" x:Name="txtLimpiar" BackgroundColor="red" Clicked="txtLimpiar_Clicked" />
+    </VerticalStackLayout>
+</ContentPage>
